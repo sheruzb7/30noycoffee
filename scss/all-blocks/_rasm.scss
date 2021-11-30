@@ -1,0 +1,34 @@
+.section1{
+   width: 100%;
+   height: 600px;
+   
+   .rasm{
+      width: 100%;
+      height: 500px;
+      background-image: url(/img/rasmkatta1.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      border-radius: 10px;
+   }
+   .rasm__text{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 170px ;
+      padding-left: 100px;
+      padding-right: 40px;
+   }
+   .rasm__h2{
+      font-size: 48px;
+      font-family: 'Fraunces', serif;
+      color: white;
+      margin: 0%;
+      padding-bottom: 20px;
+   }
+   .rasm__p{
+      color:white ;
+      font-family: 'Barlow', sans-serif;
+      line-height: 25px;
+   }
+}

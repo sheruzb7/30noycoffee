@@ -1,0 +1,43 @@
+.section4{
+   width: 100%;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   .order{
+      width: 80%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #2C343E;
+      border-radius: 5px;
+      margin-bottom: 40px;
+   }
+   .order__h2{
+      font-family: Barlow;
+      font-weight: normal;
+      font-size: 16px;
+      margin-right: auto;
+      margin-left: 75px;
+      color: white;
+   }
+   .order__p{
+      color: white;
+   }
+   .order a{
+      color: #0E8784;
+   }
+   .oxrgilogo{
+      width: 200px;
+      height: 50px;
+      background-color: #0E8784;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      padding-top: 15px;
+      border-radius: 5px;
+   }
+}
