@@ -1,0 +1,26 @@
+header{
+   width: 100%;
+   .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      &__ul{
+         display: flex;
+         list-style: none;
+         
+         &__li{
+            display: flex;
+         }
+         
+      }
+
+   }
+   .nav__li a{
+      text-decoration: none;
+      color: #83888F;
+      padding: 0 15px;
+      text-transform: uppercase;
+
+   }
+}
